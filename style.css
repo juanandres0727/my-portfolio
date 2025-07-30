@@ -286,15 +286,16 @@ body::after {
 }
 
 .contact-info {
-  font-size: 0.9rem;
-  margin-top: 4px;
-  opacity: 0.8;
+  font-size: 1.2rem;
+  margin-top: 0;
+  opacity: 0.7;
 }
 
 .contact-info a {
   color: var(--subtitle);
   text-decoration: none;
   transition: color 0.2s;
+  font-size: 1.2rem;
 }
 
 .contact-info a:hover {

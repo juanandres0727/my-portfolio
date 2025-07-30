@@ -46,10 +46,10 @@
     </div>
   </div>
   <div class="footer-corner">
-    © Juan Ocampo<br>
+    © Juan Ocampo | 
     <span class="contact-info">
-      <a href="mailto:ocampo.juan@gmail.com">ocampo.juan@gmail.com</a> | 
-      <a href="tel:+1234567890">+1 (234) 567-890</a>
+      <a href="mailto:jandresocampo27@gmailcom">jandresocampo27@gmail.com</a> | 
+      <a href="tel:+19739862042">+1 (973) 986-2042</a>
     </span>
   </div>
 </body>
@@ -75,12 +75,12 @@ switcher.addEventListener('change', (e) => {
 
 // On load, set theme from localStorage
 const savedTheme = localStorage.getItem('theme');
-if (savedTheme === 'dark') {
-  switcher.checked = true;
-  setTheme(true);
-} else {
+if (savedTheme === 'light') {
   switcher.checked = false;
   setTheme(false);
+} else {
+  switcher.checked = true;
+  setTheme(true);
 }
 </script>
 </html>
